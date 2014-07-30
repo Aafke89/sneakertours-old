@@ -1,0 +1,62 @@
+html,body {
+    background: url(/vendor/img/banndsm.jpg) no-repeat center center fixed;
+        /* Generic*/
+}
+
+
+
+#header {
+	background-color: #9AEBFB;
+	opacity: 0.8;
+	height: 100px;
+
+}
+
+
+#but:hover {
+	color: red;
+}
+
+#navbut { 
+	display:table-cell;
+    vertical-align:middle;
+    float:none;}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+
+
+#main {
+	background-color: white;
+	opacity: 0.8;
+}
+	
+
+#innermain {
+	padding: 20px;
+}
+
+#flyerhome {
+	width: 80%;
+	display: block;
+    margin: auto;
+
+}
+
+
+
+
+#side {
+	background-color: white;
+	opacity: 0.8;
+	height: 100%;
+	
+}
+
+.container-fluid{
+	margin-top: 20px;
+}
