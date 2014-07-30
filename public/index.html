@@ -4,31 +4,87 @@
     <title>Bootstrap 101 Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="style.css"></style>
+    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> </style>
+
+    
+
+    <script src="/vendor/bower_components/platform/platform.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+    
+
+    <link rel="import"
+          href="/elements/st-agenda.html">
   </head>
   <body>
   <div class="container-fluid">
-    <div class="row-fluid" id="header">
     
-  	<div class="span3" id="navbut" id="home"><a href="/index.html"> <img src="http://www.sneakertours.nl/images/logo.png"></a></div>
-  	<div class="span2 offset3" id="navbut"><a href="/tours.html"><h2 id="but">Tours</h2></a></div><div class="span2" id="navbut"><h2 id="but">Info<h2></div>
-    <div class="span2" id="navbut"><h2 id="but">Tips</h2></div>
-  </div>
+   
+  <div class="row-fluid" id="navbar">
+    <div class="span 8">
+  	<ul> 
+      <li><a href="/index.html"> <img src="http://www.sneakertours.nl/images/logo.png"></a></li>
+      <li><a href="/tours.html">Tours</a> </li>
+
+      <li><a href="/info.html">Info </a>
+      <ul>
+        <li><a href="/aboutus.html">    about us      </a>  </li>
+        <li>    <a href="/contact">      contact  </a>  </li>
+      </ul> 
+    </li>
+    <li> <a href="/tips">Tips</a></li>
+  </ul>
 </div>
-  	<div class="container-fluid">
-    <div class="row-fluid">
+</div>
+</div>
+
+<div class="container-fluid">
+  <div class="row-fluid">
     <div class="span8" id="main">
       <div id="innermain">
+        <H4>Our next tour will be on tuesday july 29th! </h4><br><h4>Come and join us for this very nice bikeride to the unknown north of Amsterdam.</h4></br>
         <img src="/vendor/img/flyerhome.jpg" id="flyerhome">
       </div>
       
     </div>
     <div class="span4" id="side">
-      <h1>Agenda</h1>
+     <div id="innermain">
+      <table>
+        <tr id="spat">
+          <td id="datum"> za 2 aug
+          </td>
+          <td id="event" id="st"> Sneaker Tour
+          </td>
+        </tr>
+
+        <tr id="spat">
+          <td id="datum"> wo 6 aug
+          </td>
+          <td id="event"> CHAOS PARTY
+          </td>
+        </tr>
+
+        <tr id="spat">
+          <td id="datum"> wo 6 aug
+          </td>
+          <td id="event"> Landjuweel bij Ruigoord
+          </td>
+        </tr>
+
+        <tr id="spat">
+          <td id="datum"> wo 6 aug
+          </td>
+          <td id="event"> MAGNEET FESTIVAL
+          </td>
+        </tr>
+       
+      </table>
+    </div>
     </div>
   </div>
 </div>
+</div>
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
   </body>

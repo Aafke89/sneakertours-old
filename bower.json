@@ -1,0 +1,19 @@
+{
+  "name": "bower install --save Polymer/polymer",
+  "version": "0.0.0",
+  "homepage": "--save",
+  "authors": [
+    "Aafke89 <aafke.smal@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "platform": "polymer/platform#~0.3.4"
+  }
+}
